@@ -1,0 +1,61 @@
+{
+  "name": "neon-owl",
+  "displayName": "Neon Owl",
+  "description": "A VS Code theme for the night owls out there. Now introducing Light Owl theme for daytime usage. Decisions were based on meaningful contrast for reading comprehension and for optimal razzle dazzle. ✨",
+  "version": "2.0.1",
+  "publisher": "sdras",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdras/night-owl-vscode-theme"
+  },
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Light Theme",
+    "Neon Owl",
+    "Night Theme",
+    "Light Owl",
+    "Snow Owl",
+    "Early Bird",
+    "Accessible Theme"
+  ],
+  "scripts": {
+    "publish": "vsce publish"
+  },
+  "galleryBanner": {
+    "color": "#061526",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.17.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "owl-icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Neon Owl",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Neon Owl-color-theme.json"
+      },
+      {
+        "label": "Neon Owl (No Italics)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Neon Owl-color-theme-noitalic.json"
+      },
+      {
+        "label": "Neon Owl Light",
+        "uiTheme": "vs",
+        "path": "./themes/Neon Owl-Light-color-theme.json"
+      },
+      {
+        "label": "Neon Owl Light (No Italics)",
+        "uiTheme": "vs",
+        "path": "./themes/Neon Owl-Light-color-theme-noitalic.json"
+      }
+    ]
+  }
+}
